@@ -9,9 +9,7 @@ venv/
 env/
 
 
-# Local Codex/agent workspace files
-.agents/
-.codex/
+
 
 # Source files not required by the Gradio prediction runtime
 src/football_predictor/train.py
