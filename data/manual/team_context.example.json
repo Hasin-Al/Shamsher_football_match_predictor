@@ -1,0 +1,51 @@
+{
+  "England": {
+    "aliases": [
+      "England national team",
+      "Three Lions"
+    ],
+    "coach": {
+      "name": "Gareth Southgate",
+      "known_match_count": 102
+    },
+    "tactical_overrides": {
+      "pass_completion_rate": 0.89,
+      "shots": 14.2,
+      "xg": 1.75,
+      "progressive_passes": 31.0,
+      "final_third_entries": 49.0,
+      "direct_speed_proxy": 1.08,
+      "pressing_intensity_proxy": 0.91
+    },
+    "injuries": [
+      {
+        "player": "Bukayo Saka",
+        "status": "fit",
+        "fitness": 92,
+        "source": "staff-report"
+      },
+      {
+        "player": "John Stones",
+        "status": "doubtful",
+        "fitness": 58,
+        "source": "press-conference"
+      }
+    ],
+    "probable_xi": [
+      {
+        "player": "Bukayo Saka",
+        "start_probability": 0.94
+      },
+      {
+        "player": "Declan Rice",
+        "start_probability": 0.99
+      }
+    ],
+    "bench": [
+      {
+        "player": "Cole Palmer",
+        "start_probability": 0.35
+      }
+    ]
+  }
+}

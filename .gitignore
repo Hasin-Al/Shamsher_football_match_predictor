@@ -1,0 +1,40 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments
+venv/
+.venv/
+env/
+
+
+# Local Codex/agent workspace files
+.agents/
+.codex/
+
+# Source files not required by the Gradio prediction runtime
+src/football_predictor/train.py
+src/football_predictor/prepare_data.py
+src/football_predictor/data/browser_scraper.py
+src/football_predictor/data/live_notes.py
+src/football_predictor/data/make_training_subset.py
+src/football_predictor/data/source_pipeline.py
+src/football_predictor/data/thesportsdb.py
+src/football_predictor/data/world_cup_2026.py
+
+# Data generated or downloaded during preparation/training.
+# Gradio runtime keeps only data/models/football_foundation.pt and
+# data/processed/team_profiles.json.
+data/raw/
+data/interim/
+data/external/
+data/manual/*
+!data/manual/
+!data/manual/team_context.example.json
+data/processed/*
+!data/processed/
+!data/processed/team_profiles.json
+data/models/*
+!data/models/
+!data/models/football_foundation.pt
